@@ -9,6 +9,8 @@ justify-content: center;
     align-self: center;
   background: black;
   color: white;
+  padding: 10px 0;
+  font-size: .6em;
   margin:0;
 }
 
@@ -16,11 +18,17 @@ justify-content: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  font-size: .9em;
+}
+h2 {
+  margin-bottom: 10px;
 }
 
 .signup p {
   text-align: center;
-  color: rgb(237,238,239);
+  font-size: 1.3em;
+  color: #CACDCE;
+  margin-top: 0;
 }
 
 form {
@@ -42,6 +50,38 @@ input {
   margin-top: 10px;
 }
 
+.newsletter-group {
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.newsletter-group p {
+  margin-top: 0;
+}
+
+.other {
+  margin-bottom: 10px;
+}
+
+#state {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  height: 40px;
+  background-color: rgb(237,238,239);
+}
+
+textarea {
+  background: rgb(237,238,239);
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  width: 100%;
+  height: 80px;
+}
+
+
+
 #full-name,
 #email,
 #phone-number,
@@ -49,12 +89,41 @@ input {
 #city,
 #zip-code {
   background-color: rgb(237,238,239);
-  height: 30px;
-  width: 100%;
+  height: 40px;
+  width: 97%;
   margin-bottom: 10px;
+  border: none;
 }
 
 form legend {
   font-weight: bold;
+  font-size: 1.2em;
   padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+input[type="submit"] {
+  background: #6cb8b4;
+  color: white;
+  height: 70px;
+  width: 100%;
+  font-size: 1.5em;
+border-radius: 5px;
+margin-top: 30px;
+}
+
+.copyright {
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom {
+  display: flex;
+  height: 200px;
 }
