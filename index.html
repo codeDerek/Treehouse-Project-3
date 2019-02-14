@@ -5,30 +5,35 @@
   <meta charset="utf-8">
   <meta name=viewport content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="stylesheet" href="CSS/normalize.css">
   <title>The Code Review</title>
 </head>
 
 <body>
   <header>
-    <h1>The Code Review</h1>
+    <h1>THE CODE REVIEW</h1>
   </header>
+  <div class="signup">
+
+
   <h2>Signup for our newsletter</h2>
   <p>Get the latest news on how your code is doing right in your inbox</p>
+    </div>
   <hr>
   <form class="form" action="index.html" method="post">
-    <fieldset>
+    <fieldset class="contact-group">
       <legend>Contact Information</legend>
-      <ul>
+
         <label for="full-name">Full Name</label>
-        <li><input type="text" id="full-name" name="full-name" value="full-name"></li>
+        <input type="text" id="full-name" name="full-name" value="full-name">
         <label for="email">Email Address</label>
-        <li><input type="email" id="email" name="email" value="email"></li>
+        <input type="email" id="email" name="email" value="email">
         <label for="phone-number">Phone Number</label>
-        <li><input type="tel" id="phone-number" name="phone-number" value="phone-number"></li>
+    <input type="tel" id="phone-number" name="phone-number" value="phone-number">
         <label for="address">Street Address</label>
-        <li><input type="text" id="address" name="address" value="address"></li>
+  <input type="text" id="address" name="address" value="address">
         <label for="city">City</label>
-        <li><input type="text" id="city" name="city" value="city"></li>
+    <input type="text" id="city" name="city" value="city">
         <label for="state-selection">State</label>
         <select id="state" id="state" name="state-selection">
           <option value="AL">Alabama</option>
@@ -82,26 +87,26 @@
           <option value="WV">West Virginia</option>
           <option value="WI">Wisconsin</option>
           <option value="WY">Wyoming</option>
-        </select>
+        </select><br>
         <label for="zip-code">Zip Code</label>
         <input type="number" id="zip-code" name="zip-code" value="zip-code">
-      </ul>
+
     </fieldset>
     <hr>
 
-    <fieldset>
+    <fieldset class="newsletter-group">
       <legend>Newsletter</legend>
       <p>Select the newsletters you would like to recieve</p>
-      <ul>
-        <li><input type="checkbox" name="subscribe" value="html-news">HTML News</li>
-        <li><input type="checkbox" name="subscribe" value="css-news">CSS News</li>
-        <li><input type="checkbox" name="subscribe" value="javascript-news">Javascript News</li>
-      </ul>
+
+        <input type="checkbox" name="subscribe" value="html-news">HTML News
+        <input type="checkbox" name="subscribe" value="css-news">CSS News
+        <input type="checkbox" name="subscribe" value="javascript-news">Javascript News
+
       <p>Newsletter format</p>
-      <ul>
-        <li><input type="radio" name="select" value="html-email">HTML</li>
-        <li><input type="radio" name="select" value="plain-text">Plain Text</li>
-      </ul>
+
+        <input type="radio" name="select" value="html-email">HTML
+        <input type="radio" name="select" value="plain-text">Plain Text
+
       <label for="other-topics">Other topics you'd like to hear about</label>
       <textarea name="other-topics" rows="8" cols="80"></textarea>
 

@@ -1,0 +1,60 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+justify-content: center;
+    align-self: center;
+  background: black;
+  color: white;
+  margin:0;
+}
+
+.signup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.signup p {
+  text-align: center;
+  color: rgb(237,238,239);
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 1 auto;
+}
+
+input {
+}
+
+.contact-group,
+.newsletter-group {
+  border: 0;
+  padding-left: 10px;
+}
+
+.contact-group input {
+  margin-top: 10px;
+}
+
+#full-name,
+#email,
+#phone-number,
+#address,
+#city,
+#zip-code {
+  background-color: rgb(237,238,239);
+  height: 30px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form legend {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
