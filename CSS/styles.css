@@ -3,16 +3,20 @@ html, body {
   margin: 0;
 }
 
+:focus {
+  outline-color: blue;
+}
+
 header {
   display: flex;
-justify-content: center;
-    align-self: center;
-  background: black;
+  justify-content: center;
+  align-self: center;
+  background: #2f3944;
   color: white;
   padding: 10px 0;
   font-size: .6em;
   font-family: 'Quicksand', sans-serif;
-  margin:0;
+  margin: 0;
 }
 
 .divider1 {
@@ -30,7 +34,7 @@ justify-content: center;
   display: flex;
   border-color: black;
   border-top-width: 2px;
-  width: 89.5%;
+  width: 89%;
   margin-top: 4px;
   margin-bottom: 10px;
 }
@@ -46,11 +50,13 @@ justify-content: center;
   flex-wrap: wrap;
   justify-content: center;
   font-size: .9em;
-    font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
+
 h2 {
+  font-size: 1.3em;
   margin-bottom: 10px;
-    font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .signup p {
@@ -60,7 +66,7 @@ h2 {
   font-size: 1.1em;
   color: #CACDCE;
   margin-top: 0;
-    font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 form {
@@ -69,8 +75,7 @@ form {
   flex: 0 1 auto;
 }
 
-input {
-}
+input {}
 
 .contact-group,
 .newsletter-group {
@@ -100,20 +105,24 @@ input {
   flex-wrap: wrap;
   width: 98%;
   height: 40px;
-  background-color: rgb(237,238,239);
+  background-color: rgb(237, 238, 239);
+  margin-top: 10px;
+}
+
+option {
+  color: rgb(237, 238, 239);
 }
 
 textarea {
-  background: rgb(237,238,239);
+  background: rgb(237, 238, 239);
   border-radius: 5px;
   border: none;
   display: flex;
   width: 100%;
   height: 80px;
-    font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  transition: 1s;
 }
-
-
 
 #full-name,
 #email,
@@ -121,26 +130,42 @@ textarea {
 #address,
 #city,
 #zip-code {
-  background-color: rgb(237,238,239);
+  background-color: rgb(237, 238, 239);
   height: 40px;
   width: 97%;
   margin-bottom: 10px;
   border: none;
   border-radius: 5px;
-    font-family: 'Quicksand', sans-serif;
+  transition: 1s ease-in-out;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+#zip-code {
+  display: flex;
+  width: 51%;
+}
+
+input::placeholder {
+  font-size: .8em;
+  color: #bfc2c5;
+  text-align: right;
+  padding-right: 20px;
+  font-style: italic;
 }
 
 form legend {
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 1.2em;
   padding-bottom: 10px;
   padding-top: 10px;
-    font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 input[type="radio"], input[type="checkbox"] {
   margin-bottom: 10px;
   margin-right: 10px;
+  transition: 1s;
 }
 
 input[type="submit"] {
@@ -149,25 +174,62 @@ input[type="submit"] {
   height: 70px;
   width: 100%;
   font-size: 1.5em;
-border-radius: 5px;
+  border-radius: 5px;
   font-family: 'Quicksand', sans-serif;
-margin-top: 30px;
+  margin-top: 30px;
 }
 
 .copyright {
-    margin-top: 10px;
+  margin-top: 10px;
   font-style: italic;
   display: flex;
   justify-content: center;
-    font-family: 'Quicksand', sans-serif;
-
+  font-family: 'Quicksand', sans-serif;
 }
 
 .bottom {
   display: flex;
   height: 200px;
+  transition: 1s;
 }
 
 label {
-    font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+@media (min-width: 768px) {}
+
+h1 {
+  font-size: .5em;
+}
+
+.signup {
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.divider1 {
+width: 60%;
+}
+
+.divider2 {
+  width: 59.5%;
+}
+
+.contact-group {
+  width: 60%;
+padding-left: 25%;
+}
+
+hr {
+  width: 60%;
+}
+
 }
