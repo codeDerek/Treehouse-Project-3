@@ -36,8 +36,8 @@
       <input type="text" id="address" name="address" placeholder="Required" required>
       <label for="city">City</label>
       <input type="text" id="city" name="city" placeholder="Required" required>
-      <label for="state-selection">State</label>
-      <select id="state" id="state" name="state" placeholder="Choose State">
+      <label for="state">State</label>
+      <select id="state" name="state">
         <option value="" disabled selected>
           Select State
           </option>
@@ -93,8 +93,8 @@
         <option value="WI">Wisconsin</option>
         <option value="WY">Wyoming</option>
       </select><br>
-      <label for="zip-code" required>Zip Code</label>
-      <input type="number" id="zip-code" name="zip-code" placeholder="Required">
+      <label for="zip-code">Zip Code</label>
+      <input type="postal-code" id="zip-code" name="zip-code" placeholder="Required">
       <hr class="divider3">
     </fieldset>
 
@@ -112,8 +112,8 @@
       <input type="radio" name="select" value="html-email">HTML<br />
       <input type="radio" name="select" value="plain-text">Plain Text<br /><br />
 
-      <label class="other" for="other-topics">Other topics you'd like to hear about</label>
-      <textarea name="other-topics" rows="8" cols="80"></textarea>
+      <label for="other-topics">Other topics you'd like to hear about</label>
+      <textarea id="other-topics" name="other-topics" rows="8" cols="80"></textarea>
 
       <input type="submit" name="Signup" value="Sign Up">
       <p class="copyright">Copyright The Code Review</p>
