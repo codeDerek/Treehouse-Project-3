@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  /* max-width: 768px; */
 }
 
 html, body {
@@ -86,7 +87,7 @@ input {}
 .contact-group,
 .newsletter-group {
   border: 0;
-  padding-left: 10px;
+  padding-left: 15px;
 }
 
 
@@ -226,10 +227,12 @@ h2 {
 
 .divider1 {
 width: 60%;
+max-width: 768px;
 }
 
 .divider2 {
   width: 59.8%;
+  max-width: 768px;
 }
 
 /* .divider3 {
@@ -240,10 +243,12 @@ width: 60%;
   width:80%;
 padding-left: 20%;
 flex-direction: row;
+max-width: 768px;
 }
 
 hr {
   width: 100%;
+  max-width: 768px;
 }
 
 .signup p {
@@ -258,14 +263,6 @@ legend {
   margin-top: 20px;
 }
 
-#full-name,
-#email,
-#phone-number,
-#address,
-#city,
-#zip-code {
 
-
-}
 
 }
