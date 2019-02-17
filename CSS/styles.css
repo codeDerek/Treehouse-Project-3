@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
   /* max-width: 768px; */
 }
 
@@ -20,7 +21,6 @@ header {
   color: white;
   padding: 10px 0;
   font-size: .6em;
-  font-family: 'Quicksand', sans-serif;
   margin: 0;
 }
 
@@ -57,23 +57,17 @@ header {
   flex-direction: column;
   justify-content: center;
   font-size: .9em;
-  font-family: 'Quicksand', sans-serif;
 }
 
 h2 {
   font-size: 1.3em;
   margin-bottom: 10px;
-  font-family: 'Quicksand', sans-serif;
 }
 
 .signup p {
   text-align: center;
-  margin-left: 20px;
-  margin-right: 20px;
   font-size: 1.1em;
   color: #CACDCE;
-  margin-top: 0;
-  font-family: 'Quicksand', sans-serif;
 }
 
 form {
@@ -82,16 +76,11 @@ form {
   flex: 0 1 auto;
 }
 
-input {}
-
 .contact-group,
 .newsletter-group {
   border: 0;
   padding-left: 15px;
 }
-
-
-
 
 .contact-group input {
   margin-top: 10px;
@@ -105,8 +94,6 @@ input {}
 .select-text {
   margin-top: 0;
 }
-
-
 
 #state {
   display: flex;
@@ -128,7 +115,6 @@ textarea {
   display: flex;
   width: 100%;
   height: 80px;
-  font-family: 'Quicksand', sans-serif;
   transition: 1s;
 }
 
@@ -144,10 +130,8 @@ textarea {
   margin-bottom: 10px;
   border: none;
   border-radius: 5px;
-  transition: 1s ease-in-out;
-  font-family: 'Quicksand', sans-serif;
+  transition: 1s;
 }
-
 
 #zip-code {
   display: flex;
@@ -167,7 +151,6 @@ form legend {
   font-size: 1.2em;
   padding-bottom: 10px;
   padding-top: 10px;
-  font-family: 'Quicksand', sans-serif;
 }
 
 input[type="radio"], input[type="checkbox"] {
@@ -183,7 +166,6 @@ input[type="submit"] {
   width: 100%;
   font-size: 1.5em;
   border-radius: 5px;
-  font-family: 'Quicksand', sans-serif;
   margin-top: 30px;
 }
 
@@ -192,7 +174,6 @@ input[type="submit"] {
   font-style: italic;
   display: flex;
   justify-content: center;
-  font-family: 'Quicksand', sans-serif;
 }
 
 .bottom {
@@ -201,68 +182,8 @@ input[type="submit"] {
   transition: 1s;
 }
 
-label {
-  font-family: 'Quicksand', sans-serif;
-}
-
-
-
-
 @media (min-width: 768px) {
 
-h1 {
-  font-size: .5em;
-}
 
-.signup {
-  flex-direction: column;
-  justify-content: center;
-  margin-bottom: 35px;
-}
-
-h2 {
-  text-align: center;
-  margin-top: 50px;
-}
-
-.divider1 {
-width: 60%;
-max-width: 768px;
-}
-
-.divider2 {
-  width: 59.8%;
-  max-width: 768px;
-}
-
-/* .divider3 {
-  width: 60%;
-} */
-
-.contact-group, .newsletter-group {
-  width:80%;
-padding-left: 20%;
-flex-direction: row;
-max-width: 768px;
-}
-
-hr {
-  width: 100%;
-  max-width: 768px;
-}
-
-.signup p {
-  font-size: .7em;
-}
-
-input[type="submit"] {
-height: 50px;
-  font-size: 1em;
-}
-legend {
-  margin-top: 20px;
-}
-
-
-
+  
 }
