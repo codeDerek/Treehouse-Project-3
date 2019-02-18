@@ -14,9 +14,10 @@ html, body {
 }
 
 header {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-self: center;
+  align-self: center; */
+  text-align: center;
   background: #2f3944;
   color: white;
   padding: 10px 0;
@@ -25,26 +26,17 @@ header {
 }
 
 .divider1 {
-  display: flex;
-  flex-wrap: wrap;
   border-color: black;
   border-top-width: 4px;
+  border-bottom-width: 2px;
+  height: 4px;
   border-left: none;
   border-right: none;
   width: 90%;
-  margin-bottom: 0;
 }
+
 
 .divider2 {
-  display: flex;
-  border-color: black;
-  border-top-width: 2px;
-  width: 89.5%;
-  margin-top: 4px;
-  margin-bottom: 10px;
-}
-
-.divider3 {
   border-color: black;
   border-width: 1.5px;
   margin-top: 20px;
@@ -184,6 +176,53 @@ input[type="submit"] {
 
 @media (min-width: 768px) {
 
+header {
+  height: 50px;
+  font-size: .4em;
+}
 
-  
+header h1 {
+  padding-top: 0;
+}
+.signup h2 {
+  margin-top: 35px;
+  margin-bottom: 4px;
+}
+
+.signup p {
+  font-size: .75em;
+  margin-top: 0;
+}
+
+.divider1 {
+  margin-top: 20px;
+  border-top-width: 3px;
+  border-bottom-width: 1px;
+  width: 60%;
+}
+
+.divider2 {
+  width: 60%;
+}
+
+/* .contact-group label {
+  width: 60%;
+  margin-left: 18%;
+}
+
+.contact-group input {
+  width: 60%;
+  margin-left: 40%;
+  display: inline;
+} */
+
+/* .contact-group {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: stretch;
+} */
+
+
+
 }
