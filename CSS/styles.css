@@ -216,13 +216,37 @@ header h1 {
   display: inline;
 } */
 
-/* .contact-group {
+.contact-group {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  align-items: stretch;
-} */
+  align-items: baseline;
+  justify-content: center;
+}
+
+.contact-group legend {
+  margin-left: 50%;
+}
+
+#full-name,
+#email,
+#phone-number,
+#address,
+#city,
+#zip-code
+ {
+  width: 45%;
+  margin-left: 10%;
+}
 
 
+.entry-1,
+.entry-2,
+.entry-3,
+.entry-4,
+.entry-5 {
+justify-content: center;
+
+}
 
 }
