@@ -24,6 +24,8 @@
   <form class="form" action="index.html" method="post">
     <fieldset class="contact-group">
       <legend>Contact Information</legend>
+<div class="entries">
+
 
       <div class="entry-1">
         <label for="full-name">Full Name</label>
@@ -49,7 +51,7 @@
         <label for="city">City</label>
         <input type="text" id="city" name="city" placeholder="Required" required>
       </div>
-
+<div class="state-entry">
       <label for="state">State</label>
       <select id="state" name="state">
         <option value="" disabled selected>
@@ -106,10 +108,12 @@
         <option value="WV">West Virginia</option>
         <option value="WI">Wisconsin</option>
         <option value="WY">Wyoming</option>
-      </select><br>
+      </select></div><br>
+      <div class="entry-6">
       <label for="zip-code">Zip Code</label>
       <input type="postal-code" id="zip-code" name="zip-code" placeholder="Required">
-
+        </div>
+</div>
       <hr class="divider2">
     </fieldset>
 
