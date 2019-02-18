@@ -226,6 +226,15 @@ input[type="submit"] {
     margin-left: 50%;
   }
 
+  textarea {
+    width: 75%;
+  }
+
+  input[type="submit"] {
+    width: 75%;
+
+  }
+
   #full-name,
   #email,
   #phone-number,
