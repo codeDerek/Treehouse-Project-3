@@ -4,26 +4,47 @@
   /* max-width: 768px; */
 }
 
+.entry-1,
+.entry-2,
+.entry-3,
+.entry-4,
+.entry-5,
+.entry-6,
+.state-entry {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 html, body {
   padding: 0;
   margin: 0;
 }
 
-:focus {
-  outline-color: blue;
+
+
+
+#full-name:focus,
+#email:focus,
+#phone-number:focus,
+#address:focus,
+#city:focus,
+#state:focus,
+#zip-code:focus,
+#postal-code:focus,
+textarea:focus {
+  background-color: lightblue;
 }
 
 header {
-  /* display: flex;
-  justify-content: center;
-  align-self: center; */
   text-align: center;
-  background: #2f3944;
+  background: lightblue;
   color: white;
   padding: 10px 0;
   font-size: .6em;
   margin: 0;
 }
+
 
 .divider1 {
   border-color: black;
@@ -33,6 +54,12 @@ header {
   border-left: none;
   border-right: none;
   width: 90%;
+  margin-bottom: 0;
+}
+
+.contact-group {
+  padding-top: 10px;
+
 }
 
 .divider2 {
@@ -48,6 +75,7 @@ header {
   flex-direction: column;
   justify-content: center;
   font-size: .9em;
+
 }
 
 h2 {
@@ -56,7 +84,8 @@ h2 {
 }
 
 .signup p {
-  text-align: center;
+justify-content: center;
+
   font-size: 1.1em;
   color: #CACDCE;
 }
@@ -232,7 +261,8 @@ form {
 
 
   textarea {
-    width: 75%;
+    width: 100%;
+    margin-top: 10px;
   }
 
   input[type="submit"] {
@@ -271,16 +301,24 @@ form {
   width: 65%;
 }
 #zip-code {
-  max-width: 25%;
-margin-right: 40%;
+  max-width: 30%;
+margin-right: 35%;
 }
 
 .entries label {
   margin-top: 18px;
 }
 
+.copyright {
+  color: grey;
+  margin-top: 30px;
 }
 
+.entry-7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 
 
