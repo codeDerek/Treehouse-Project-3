@@ -35,7 +35,6 @@ header {
   width: 90%;
 }
 
-
 .divider2 {
   border-color: black;
   border-width: 1.5px;
@@ -175,37 +174,37 @@ input[type="submit"] {
 }
 
 @media (min-width: 768px) {
+  header {
+    height: 50px;
+    font-size: .4em;
+  }
 
-header {
-  height: 50px;
-  font-size: .4em;
-}
+  header h1 {
+    padding-top: 0;
+  }
 
-header h1 {
-  padding-top: 0;
-}
-.signup h2 {
-  margin-top: 35px;
-  margin-bottom: 4px;
-}
+  .signup h2 {
+    margin-top: 35px;
+    margin-bottom: 4px;
+  }
 
-.signup p {
-  font-size: .75em;
-  margin-top: 0;
-}
+  .signup p {
+    font-size: .75em;
+    margin-top: 0;
+  }
 
-.divider1 {
-  margin-top: 20px;
-  border-top-width: 3px;
-  border-bottom-width: 1px;
-  width: 60%;
-}
+  .divider1 {
+    margin-top: 20px;
+    border-top-width: 3px;
+    border-bottom-width: 1px;
+    width: 60%;
+  }
 
-.divider2 {
-  width: 60%;
-}
+  .divider2 {
+    width: 60%;
+  }
 
-/* .contact-group label {
+  /* .contact-group label {
   width: 60%;
   margin-left: 18%;
 }
@@ -215,38 +214,33 @@ header h1 {
   margin-left: 40%;
   display: inline;
 } */
+  .contact-group {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+  }
 
-.contact-group {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: baseline;
-  justify-content: center;
-}
+  .contact-group legend {
+    margin-left: 50%;
+  }
 
-.contact-group legend {
-  margin-left: 50%;
-}
+  #full-name,
+  #email,
+  #phone-number,
+  #address,
+  #city,
+  #zip-code {
+    width: 45%;
+    margin-left: 10%;
+  }
 
-#full-name,
-#email,
-#phone-number,
-#address,
-#city,
-#zip-code
- {
-  width: 45%;
-  margin-left: 10%;
-}
-
-
-.entry-1,
-.entry-2,
-.entry-3,
-.entry-4,
-.entry-5 {
-justify-content: center;
-
-}
-
+  .entry-1,
+  .entry-2,
+  .entry-3,
+  .entry-4,
+  .entry-5 {
+    justify-content: center;
+  }
 }
